@@ -202,11 +202,6 @@ function renderStats() {
     <div style="color:#d63384">🌡 Температура (ощущается): ${avgTemp}°C</div>
     <div style="color:#0d6efd">💧 Влажность: ${avgHumidity}%</div>
     <div style="color:#20c997">💨 Ветер: ${avgWind} км/ч</div>
-    <div style="margin-top:15px">
-      <button onclick="clearHistory()" style="background:#dc3545; color:white; padding:16px 24px; border:none; border-radius:8px; font-size:1em; cursor:pointer">
-        🧹 Очистить историю
-      </button>
-    </div>
   `;
 }
 
