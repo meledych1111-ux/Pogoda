@@ -139,7 +139,7 @@ input {
   max-width: none;             /* убираем ограничение 440px */
   background: #dc3545;
   color: white;
-  padding: 18px 24px;          /* увеличенные отступы по ширине */
+  padding: 18px 60px;          /* увеличенные отступы по ширине */
   font-size: 1em;
   font-weight: 600;
   border: none;
