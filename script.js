@@ -210,3 +210,11 @@ document.getElementById("saveBtn").addEventListener("click", saveRecord);
 loadWeather();
 renderHistory();
 renderStats();
+
+// Регистрация сервис-воркера для PWA
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("service-worker.js")
+    .then(() => console.log("✅ Service Worker зарегистрирован"))
+    .catch(err => console.error("❌ Ошибка регистрации:", err));
+}
+
