@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Погода и одежда</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="weather-app">
+    <header class="app-header">
+      <h1>Погода в Севастополе</h1>
+      <div id="weather"></div>
+    </header>
+
+    <main class="app-content">
+      <div id="advice"></div>
+
+      <h2>Оцените совет</h2>
+      <div class="btn-group">
+        <button id="adviceGood">Совет подошёл</button>
+        <button id="adviceBad">Совет не подошёл</button>
+      </div>
+
+      <h2>Что вы надели?</h2>
+      <input type="text" id="wornInput" placeholder="Например: куртка и джинсы">
+
+      <h2>Оцените свой выбор</h2>
+      <div class="btn-group">
+        <button class="choiceBtn" data-feedback="Подошло">✅ Подошло</button>
+        <button class="choiceBtn" data-feedback="Холодно">🥶 Холодно</button>
+        <button class="choiceBtn" data-feedback="Жарко">🥵 Жарко</button>
+      </div>
+
+      <button id="saveBtn">Сохранить</button>
+
+      <h2>История</h2>
+      <div id="history"></div>
+
+      <h2>Статистика</h2>
+      <div id="stats"></div>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
