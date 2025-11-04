@@ -64,21 +64,22 @@ body {
 
 button {
   flex: 1 1 40%;
-  background: linear-gradient(to right, #4facfe, #00f2fe);
+  background: #4facfe;
   border: none;
-  padding: 8px 10px;
-  border-radius: 8px;
-  font-size: 0.9em;
+  padding: 6px 8px;
+  border-radius: 6px;
+  font-size: 0.8em;
   font-weight: 600;
   color: white;
   cursor: pointer;
-  min-width: 100px;
-  max-width: 160px;
+  min-width: 80px;
+  max-width: 140px;
   white-space: nowrap;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 button:active {
-  transform: scale(0.97);
+  transform: scale(0.96);
 }
 input {
   width: 100%;
@@ -127,5 +128,5 @@ input {
   cursor: pointer;
   box-shadow: 0 2px 4px rgba(0,0,0,0.2);
   margin-top: 12px;
-  width: 100%;
+  width: 75%;
 }
