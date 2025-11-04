@@ -41,11 +41,14 @@ body {
 }
 
 .app-content {
-  flex: 1;
+  flex: 1 1 auto;
   overflow-y: auto;
   padding: 16px;
-  padding-bottom: 25vh; /* Четверть экрана остаётся пустой */
+  padding-bottom: 25vh; /* оставляем пустое пространство внизу */
+  box-sizing: border-box;
+  min-height: 0; /* важно для корректной прокрутки внутри flex-контейнера */
 }
+
 
 #advice {
   font-size: 1.2em;
